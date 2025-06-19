@@ -1,0 +1,29 @@
+body {
+    justify-items: center;
+    background-color: azure;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+a, a:hover, u {
+    color: gray;
+    text-align: none;
+}
+
+.times-list {
+    background-color: chocolate;
+    border-color: brown;
+    padding: 10px 20px;
+    border: 3px solid;
+}
+
+.items {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+}
+
+img {
+    max-width: 600px;
+    max-height: 600px;
+}
