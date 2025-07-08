@@ -1,6 +1,6 @@
 body {
     justify-items: center;
-    background-color: azure;
+    background-color: rgba(211, 253, 253, 0.664);
     font-family:'Courier New', Courier, monospace;
     font-size: large;
 }
@@ -11,8 +11,8 @@ a, a:hover, u {
 }
 
 .times-list {
-    background-color: chocolate;
-    border-color: brown;
+    background-color: white;
+    border-color: black;
     padding: 10px 20px;
     border: 3px solid;
 }
@@ -26,4 +26,12 @@ a, a:hover, u {
 img {
     max-width: 600px;
     max-height: 600px;
+}
+
+ul {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
 }
